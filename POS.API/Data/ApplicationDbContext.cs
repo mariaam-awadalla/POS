@@ -3,11 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using POS.API.Models;
 using System.Collections.Generic;
 
-namespace POS.API.Data
-{
-    
 
-    namespace UserAPI.Data
+    namespace POS.API.Data
     {
         public class ApplicationDbContext : DbContext
         {
@@ -62,4 +59,4 @@ namespace POS.API.Data
             }
         }
     }
-}
+
